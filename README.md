@@ -1,43 +1,62 @@
-<div align="center">
+# 🎓 Harvard CS50 — Computer Science Journey
 
-# 🎓 HARVARD CS50 — COMPUTER SCIENCE JOURNEY 🚀
+Repositório de estudos dedicado ao aprendizado de **Ciência da Computação e programação com Python**, inspirado no percurso do **CS50** de Harvard.
 
-<img src="https://img.shields.io/badge/INSTITUTION-HARVARD_UNIVERSITY-crimson?style=for-the-badge&logo=harvard&logoColor=white" />
-<img src="https://img.shields.io/badge/COURSE-CS50_PYTHON-blue?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-success?style=for-the-badge" />
+O objetivo é registrar exercícios, pequenos projetos e a evolução dos fundamentos de programação de forma organizada e testável.
 
-> *“This is CS50 — exploring computer science and the art of programming with rigorous academic standards.”*
+## 📚 Conteúdo atual
 
-</div>
+### Hello CS50
 
----
+O arquivo `hello_cs50.py` apresenta um exercício introdutório de Python com:
 
-## 🏛️ About This Repository
+- entrada de dados pelo terminal;
+- limpeza de espaços em branco;
+- formatação de texto;
+- saída formatada;
+- organização da lógica em uma função.
 
-Welcome to my **harvard-cs50** repository! Here I document my progression, problem sets, and hands-on projects through Harvard University's world-renowned introduction to computer science. 
+## 🛠️ Tecnologias
 
-### 📚 What You Will Find Here:
-* **Problem Sets:** Solutions for algorithmic challenges, data structures, and computational thinking exercises.
-* **Python Track:** Advanced scripts and code structures developed during the curriculum.
-* **Final Project:** A capstone project uniting software engineering principles with real-world problem solving.
+- Python 3.10+
+- Git e GitHub
+- VS Code
 
----
+## ▶️ Como executar
 
-## 🛠️ Tech Stack & Tools
-* **Language:** Python
-* **Environment:** VS Code, Git & GitHub
-* **Standards:** Clean Code, PEP 8, International Documentation
+```bash
+python hello_cs50.py
+```
 
----
+O programa solicitará um nome pelo terminal e exibirá uma saudação formatada.
 
-## 👩‍💻 Author
+## 🧪 Testes
 
-<div align="center">
+Os exercícios deste repositório serão acompanhados por testes automatizados conforme a complexidade dos projetos aumentar.
 
-**Marcella Bongiolo**  
-*Future Software Engineer | UNESC Student*
+## 📁 Estrutura
 
-[![GitHub Badge](https://img.shields.io/badge/GitHub-marcellabongiolo-181717?style=flat-square&logo=github)](https://github.com/marcellabongiolo)
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-marcellabongiolo-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/marcellabongiolo)
+```text
+harvard-cs50/
+├── .gitignore
+├── README.md
+└── hello_cs50.py
+```
 
-</div>
+## 🚀 Próximos passos
+
+- adicionar novos exercícios de Python;
+- praticar algoritmos e estruturas de dados;
+- documentar decisões e aprendizados;
+- adicionar testes aos exercícios que possuam lógica reutilizável;
+- desenvolver um projeto final mais completo.
+
+## 👩‍💻 Autora
+
+**Marcella Bongiolo**
+
+Repositório voltado à prática de programação e fundamentos de Ciência da Computação.
+
+## 📄 Licença
+
+Distribuído sob a licença MIT.
