@@ -32,12 +32,14 @@ O programa solicitará um nome pelo terminal e exibirá uma saudação formatada
 
 ## 🧪 Testes
 
-Os exercícios deste repositório serão acompanhados por testes automatizados conforme a complexidade dos projetos aumentar.
+A saudação possui testes automatizados de nomes, espaços e entradas inválidas. Execute `python -m unittest discover -s tests -v`. O GitHub Actions executa a suíte em Python 3.12.
 
 ## 📁 Estrutura
 
 ```text
 harvard-cs50/
+├── .github/workflows/tests.yml
+├── tests/test_hello_cs50.py
 ├── .gitignore
 ├── README.md
 └── hello_cs50.py
